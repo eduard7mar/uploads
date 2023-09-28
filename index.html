@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Uploads</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="calc">
+  <form class="form calc_form" action=# method=POST enctype=multipart/form-data>
+    <div class=file_upload>
+      <button type=button>Upload a photo</button>
+      <div>No file selected</div>
+      <input type=file name=upload>
+    </div>
+    <select id=size>
+      <option>Choose the canvas size</option>
+      <option>40x50</option>
+      <option>50x70</option>
+      <option>70x70</option>
+      <option>70x100</option>
+    </select>
+    <select id=material>
+      <option>Select the canvas material</option>
+      <option>Fiber canvas</option>
+      <option>Linen canvas</option>
+    </select>
+    <select id=options>
+      <option>Additional services</option>
+      <option>Art-gel coating</option>
+      <option>Express production</option>
+      <option>Delivery of finished artworks</option>
+    </select>
+  </form>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

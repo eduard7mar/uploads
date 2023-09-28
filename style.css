@@ -1,0 +1,43 @@
+.calc select {
+  opacity: 0.6;
+  margin-left: 3rem;
+  appearance: none;
+  border: none;
+  display: block;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+.calc .file_upload {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  font-size: 1em;
+  /* example */
+  height: 4em;
+}
+.calc .file_upload > button {
+  width: 10em;
+  /* example */
+  height: 100%;
+}
+.calc .file_upload input[type=file] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.calc .file_upload > button {
+  border-radius: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color: transparent;
+  font-size: 1rem;
+  color: #c51abb;
+  border: 2px dashed #c51abb;
+}
